@@ -1,0 +1,67 @@
+TODO CARGAR NUESTRO SERVIDOR LOCAL PARA TRABAJAR CON FASTAPI
+uvicorn main:app --reload ----> uvicorn es el servidor, main es el nombre del archivo raiz, :app es la instancia de FastAPI, el --releoad es para recargar el contexto del servidor cada vez que modificamos algo en el archivo.py
+control + c -->paramos el server
+
+
+TODO Tipos de peticiones/operaciones que se pueden realizar con el protocolo https de comunicación
+
+get -> para leer datos (accion por defecto que realiza el sistema)
+post --> para enviar/crear datos
+put -> para actualizar datos
+delete -> para borrar datos
+
+
+CRUD --> (create read update delete)
+
+TODO codigos de http 
+code 200 -> esta todo ok
+code 201 -> se ha creado algo
+code 204 -> no hay contenido
+code 301 -> redireccion
+code 302 -> significa que el recurso de la URI solicitada ha sido cambiado temporalmente. Nuevos cambios en la URI serán agregados en el futuro. Por lo tanto, la misma URI debe ser usada por el cliente en futuras solicitudes.
+
+code 400 -> el servidor no pudo interpretar la solicitud
+code 401 -> es necesario autenticar para obtener la respuesta solicitada
+code 404-> El servidor no pudo encontrar el contenido solicitado
+code 422 ->
+code 500 -> el servidor no sabe que hacer o se ah caido o no encuentra la info que pensamos que tiene
+code 505 -> la version de http usada no esta soportada por el server
+
+
+TODO documentación FastAPI
+para gestor de documentacion Swagger UI -->http://127.0.0.1:8000/docs
+en nuestra url raiz ponemos /docs y ahi nos lleva a la documentacion automatica de nuestra api
+donde nos va a decir que funciones tiene, como funcionan y hasta poder emularlas ahi en el momento
+
+
+para usar el gestor de documentacion ReDoc -->http://127.0.0.1:8000/redoc
+en nuestra url raiz ponemos /redoc y ahi nos lleva a la documentacion automatica de nuestra api
+donde nos va a decir que funciones tiene, como funcionan y hasta poder emularlas ahi en el momento
+
+
+
+TODO postman
+es una herramienta que nos va a servir para interactuar con la api, con el backend
+
+TODO Thunder client
+plaggins de Vs para trabajar con api
+
+
+TODO seguridad
+autenticacion --> significa que el sistema conoce al usuario que a entrado
+autorizacion --> son los permiso que tiene un usuario para hacer algo dentro del sistema
+
+
+Estandar o mecanismos oficiales para trabajar con autenticacion
+OAuth2 --> sistema para autenticar cliente-SERVIDOR muy seguro
+OpenIdconnects --> otro sistema para autenticar
+
+
+
+
+
+Mongo DB
+
+crear cuenta en Mongo
+colocamos en el path la ruta de acceso q nos da Mongo DB
+en la extencion de Mongo ponemos nueva conexion y ahi colocamos la ruta de acceso a la DB de Mongo

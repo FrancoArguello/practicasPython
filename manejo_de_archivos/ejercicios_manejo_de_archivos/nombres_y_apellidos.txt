@@ -1,0 +1,17 @@
+Los datos son: 
+
+Nombres: Franco
+Apellido: Argüello
+----------------
+Nombres: Thiago
+Apellido: Pereira
+----------------
+Nombres: Ivana
+Apellido: Aquino
+----------------
+Nombres: Lucho
+Apellido: Fernandez
+----------------
+Nombres: Yoana
+Apellido: Grimoldi
+----------------
